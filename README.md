@@ -13,5 +13,12 @@ If you don't care and/or this is a fresh server - just remove everything in that
 
 If you've already altered script/config files that this repo is about to replace and don't want to do so - you'd better follow instructions (linked above) on installing StartupScripts and enabling census and excise office.
 
+## Removing the ship
+If you want to remove the ship, for ex if you are playing coop and already gone through the intro area and now don't want to see the prison ship anchored at Seyda Neen at all times:
+
+In `scripts/contentFixer.lua` find `Delete the chargen boat and associated guards and objects` line and uncomment 3 lines below it (remove `--` in the beginning of each line).
+
+On the next server startup boat and related guards will be removed.
+
 ## Issues
 If you keep `config.shareJournal = true` in `config.lua` - only one player can go through the door near the final intro guard after asking about duties. Others will be prompted by the door to ask about duties. To unstuck this - the very first door (from the ship to the office) is not locked - so you can go back to the pier and around the office.
