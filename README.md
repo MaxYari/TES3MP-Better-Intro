@@ -1,4 +1,5 @@
-# Better new character intro/beginning for [TES3MP](https://tes3mp.com/) version 0.7.x.
+# Better new character intro/beginning for [TES3MP](https://tes3mp.com/) version 0.7.0-alpha.
+(May work on later versions as well)
 
 **Based on** [StartupScript](https://github.com/Skvysh/TES3MP-Scripts/tree/master/StartupScripts) with few minor tweaks.
 
